@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Michal Bocek -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_activated" >
+
+    <ImageView
+        android:id="@+id/delete_waypoint_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="4dp"
+        android:background="@drawable/view_clickable_background"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/ic_menu_delete" />
+
+    <TextView
+        android:id="@+id/waypoint_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/delete_waypoint_button"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/waypoint_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/waypoint_title"
+        android:layout_toLeftOf="@id/delete_waypoint_button"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

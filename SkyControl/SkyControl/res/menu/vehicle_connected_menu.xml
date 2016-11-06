@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Michal Bocek -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bocekm.skycontrol.MainActivity" >
+
+    <item
+        android:id="@+id/send_mission"
+        android:title="@string/send_mission_menu_item"/>
+    
+    <item
+        android:id="@+id/receive_mission"
+        android:title="@string/receive_mission_menu_item"/>
+    
+    <item
+        android:id="@+id/set_home"
+        android:title="@string/set_home_menu_item"/>
+
+</menu>

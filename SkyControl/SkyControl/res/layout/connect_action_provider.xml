@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Michal Bocek -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <!-- Workaround: parent RelativeLayout added to access all the actionbar height -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:divider="?android:dividerHorizontal"
+        android:dividerPadding="8dp"
+        android:orientation="horizontal"
+        android:showDividers="beginning|middle|end"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            android:id="@+id/connect_menu_layout"
+            android:minWidth="@dimen/action_button_width"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="?android:listPreferredItemPaddingLeft"
+            android:paddingRight="?android:listPreferredItemPaddingRight" >
+
+            <TextView
+                android:id="@+id/connect_menu_title"
+                style="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/rssi_menu_value"
+                style="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Michal Bocek -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/log_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:fillViewport="true" >
+
+        <TextView
+            android:id="@+id/log_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="4dp" >
+
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:text="@string/clear_button"
+            android:textSize="@dimen/text_size_medium" >
+        </Button>
+
+        <ToggleButton
+            android:id="@+id/autoscroll_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:textOff="@string/autoscroll_off"
+            android:textOn="@string/autoscroll_on"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+</LinearLayout>

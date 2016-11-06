@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Michal Bocek -->
+<!-- Provide list of obstacles in the following format:
+<obstacles>
+    ..
+    <obstacle>
+        <coords>
+            [List of WGS-84 global position latitude,longitude pairs, each separated by whitespace+.
+            These coordinates specify boundary polygon of the orthogonal projection of 3D obstacle
+            onto the Earth surface.
+            Notes:
+            a) First coordinate should correspond to the last so all of the coords represent a ring.
+               If it does not, the last coordinate will get connected to the first one.
+            b) Specify >= 4 coordinates for each obstacle, including the last coodinate that is equal 
+               to the first one.]
+        </coords>
+        <elevation>
+            [Integer value representing the AMSL altitude of the highest point of obstacle.]
+        </elevation>
+    </obstacle>
+    ..
+</obstacles>
+ -->
+<obstacles>
+    <obstacle>
+        <coords>49.207568,16.604625 49.209018, 16.609067 49.205009, 16.613187
+            49.204224, 16.606578
+        </coords>
+        <elevation>400</elevation>
+    </obstacle>
+    <obstacle>
+        <coords>49.208457, 16.615247 49.213476, 16.602415 49.212719, 16.612415
+        </coords>
+        <elevation>400</elevation>
+    </obstacle>
+    <obstacle>
+        <coords>49.237868, 16.557241 49.237868, 16.557241 49.237868, 16.557241
+        </coords>
+        <elevation>500</elevation>
+    </obstacle>
+</obstacles>

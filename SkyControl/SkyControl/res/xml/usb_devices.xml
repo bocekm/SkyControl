@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Michal Bocek -->
+<resources>
+
+    <!-- 0x0403 / 0x6001: FTDI FT232R -->
+    <usb-device product-id="24577" vendor-id="1027" />
+
+    <!-- 0x0403 / 0x6010: FTDI FT2232C/D/HL -->
+    <usb-device product-id="24592" vendor-id="1027" />
+
+    <!-- 0x0403 / 0x6011: FTDI FT4232HL -->
+    <usb-device product-id="24593" vendor-id="1027" />
+
+    <!-- 0x0403 / 0x6014: FTDI FT232H -->
+    <usb-device product-id="24596" vendor-id="1027" />
+
+    <!-- 0x0403 / 0x6015: FTDI FT230X -->
+    <usb-device product-id="24597" vendor-id="1027" />
+
+    <!-- 0x2341 / 0x0010: APM 2.5 device -->
+    <usb-device product-id="16" vendor-id="9025" />
+
+    <!-- 0x26ac / 0x0010: APM 2.5 device -->
+    <usb-device product-id="16" vendor-id="9900" />
+
+    <!-- 0x26ac / 0x0011: Pixhawk device -->
+    <usb-device product-id="17" vendor-id="9900" />
+</resources>

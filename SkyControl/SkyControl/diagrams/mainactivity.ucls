@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" automaticImage="PDF" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="com.bocekm.skycontrol.FlightDirectorFragment" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/FlightDirectorFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="614" y="258"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.bocekm.skycontrol.OverviewFragment" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/OverviewFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="500" y="421"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.bocekm.skycontrol.ListeningMapView" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/ListeningMapView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="878" y="421"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.bocekm.skycontrol.AlertDialogFragment" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/AlertDialogFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="281" y="155"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.bocekm.skycontrol.MissionItemListFragment.MissionItemAdapter" 
+    project="SkyControl" file="/SkyControl/src/com/bocekm/skycontrol/MissionItemListFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1205" y="510"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.bocekm.skycontrol.MainActivity" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/MainActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="761" y="47"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.bocekm.skycontrol.VehicleNavigatorFragment" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/VehicleNavigatorFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="321" y="421"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.bocekm.skycontrol.LogHelper" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/LogHelper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="926" y="155"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.bocekm.skycontrol.PreferencesActivity" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/PreferencesActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="442" y="155"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.bocekm.skycontrol.LogFragment" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/LogFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="926" y="258"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.bocekm.skycontrol.TabsPagerAdapter" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/TabsPagerAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="775" y="155"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.bocekm.skycontrol.OnPageChangeListener" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/OnPageChangeListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="117" y="155"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.bocekm.skycontrol.MissionActionProvider" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/MissionActionProvider.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1086" y="155"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.bocekm.skycontrol.NonSwipeableViewPager" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/NonSwipeableViewPager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="607" y="155"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.bocekm.skycontrol.FlightDirectorControllersFragment" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/FlightDirectorControllersFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="690" y="421"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.bocekm.skycontrol.PlaceholderFragment" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/PlaceholderFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1096" y="258"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.bocekm.skycontrol.ErrorDialogFragment" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/ErrorDialogFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1032" y="421"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.bocekm.skycontrol.ConnectActionProvider" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/ConnectActionProvider.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1268" y="155"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.bocekm.skycontrol.PreferencesFragment" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/PreferencesFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="442" y="258"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="20" language="java" name="com.bocekm.skycontrol.ListeningMapView.MapViewListener" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/ListeningMapView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="878" y="510"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <interface id="21" language="java" name="com.bocekm.skycontrol.AlertDialogFragment.AlertDialogListener" 
+    project="SkyControl" file="/SkyControl/src/com/bocekm/skycontrol/AlertDialogFragment.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="281" y="258"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="22" language="java" name="com.bocekm.skycontrol.FlightDataFragment" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/FlightDataFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="349" y="335"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.bocekm.skycontrol.OnNumberButtonClickListener" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/OnNumberButtonClickListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="690" y="510"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.bocekm.skycontrol.MissionItemListFragment" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/MissionItemListFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1205" y="421"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <association id="25">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="26" name="mMissionProvider"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="28">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="29" name="mVehicleNavigatorFragment"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="32">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="33" name="mAdapter"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="35">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="36">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="37" name="mConnProvider"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="39">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="40" name="mListener"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="42">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="43">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="44" name="mPagerAdapter"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="46">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <association id="47">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="48" name="mLogHelper"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="50">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="51" name="mFlightDirectorControllersFragment"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="54" name="mOverviewFragment"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="58">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="59" name="mListener"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="61">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="62" name="mViewPager"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="64">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="65">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="66">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <generalization id="67">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="false">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>

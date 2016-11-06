@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Michal Bocek -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <!-- Parent RelativeLayout added to access all the actionbar height -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:baselineAligned="false"
+        android:divider="?android:dividerHorizontal"
+        android:dividerPadding="8dp"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <LinearLayout
+            android:id="@+id/wpf_menu_layout"
+            android:minWidth="@dimen/action_button_width"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="?android:listPreferredItemPaddingLeft"
+            android:paddingRight="?android:listPreferredItemPaddingRight" >
+
+            <TextView
+                style="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="WPF" />
+
+            <TextView
+                android:id="@+id/wpf_menu_state"
+                style="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="OFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fd_menu_layout"
+            android:minWidth="@dimen/action_button_width"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="?android:listPreferredItemPaddingLeft"
+            android:paddingRight="?android:listPreferredItemPaddingRight" >
+
+            <TextView
+                style="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="FD" />
+
+            <TextView
+                android:id="@+id/fd_menu_state"
+                style="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="OFF" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/collision_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:divider="?android:dividerHorizontal"
+        android:minWidth="@dimen/collision_view_width"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:background="@color/skycontrol_red"
+        android:visibility="invisible"
+        >
+        <TextView
+                style="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="DANGER OF" />
+        <TextView
+                style="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="COLLISION" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Michal Bocek -->
+<resources>
+
+    <dimen name="collision_view_width">116sp</dimen>
+    <dimen name="action_button_width">58sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_param_value">18sp</dimen>
+    <dimen name="text_size_param_title">16sp</dimen>
+    <dimen name="text_size_param_unit">15sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="vehicle_param_textview_margin_top">-5dp</dimen>
+    <dimen name="vehicle_param_textview_padding_top">0dp</dimen>
+    <dimen name="vehicle_param_textview_padding_bottom">0dp</dimen>
+
+</resources>

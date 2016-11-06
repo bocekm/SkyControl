@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Michal Bocek -->
+<resources>
+    
+    <!-- Consult any changes to tab_titles with TabsPagerAdapter.java constants -->
+    <string-array name="tab_titles">
+        <item>map</item>
+        <item>fd</item>
+        <item>log</item>
+    </string-array>
+
+</resources>

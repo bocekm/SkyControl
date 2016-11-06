@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" automaticImage="PDF" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <interface id="1" language="java" name="com.bocekm.skycontrol.cas.CollisionEvents.CollisionListener" 
+    project="SkyControl" file="/SkyControl/src/com/bocekm/skycontrol/cas/CollisionEvents.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="792" y="180"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="com.bocekm.skycontrol.cas.Obstacle" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/cas/Obstacle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="569" y="290"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.bocekm.skycontrol.cas.GeoTiffKeyEntry" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/cas/GeoTiffKeyEntry.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="388" y="190"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.bocekm.skycontrol.cas.TiffParser" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/cas/TiffParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="309" y="116"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.bocekm.skycontrol.cas.XmlParser" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/cas/XmlParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="569" y="147"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.bocekm.skycontrol.cas.CollisionEvents" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/cas/CollisionEvents.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="792" y="115"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.bocekm.skycontrol.cas.Obstacles" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/cas/Obstacles.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="569" y="218"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.bocekm.skycontrol.cas.TiffField" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/cas/TiffField.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="219" y="190"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.bocekm.skycontrol.cas.CollisionAvoidance" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/cas/CollisionAvoidance.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="569" y="55"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <association id="10">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="11" name="mElevationModel"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="14">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="15" name="collisionListeners"/>      
+      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="18" name="sCollisionEvents"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="21">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="22" name="mObstacleList"/>      
+      <multiplicity id="23" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="false">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>

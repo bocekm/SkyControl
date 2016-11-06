@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" automaticImage="PDF" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="com.bocekm.skycontrol.mavlink.MavLinkFlightMode" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/mavlink/MavLinkFlightMode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="530" y="217"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.bocekm.skycontrol.mavlink.MavLinkConnection" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/mavlink/MavLinkConnection.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="158" y="154"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="com.bocekm.skycontrol.mavlink.MavLinkConnection.MavLinkConnectionListener" 
+    project="SkyControl" file="/SkyControl/src/com/bocekm/skycontrol/mavlink/MavLinkConnection.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="159" y="217"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="com.bocekm.skycontrol.mavlink.MavLinkParameters" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/mavlink/MavLinkParameters.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="529" y="335"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.bocekm.skycontrol.mavlink.MavLinkService.ServiceIncomingHandler" 
+    project="SkyControl" file="/SkyControl/src/com/bocekm/skycontrol/mavlink/MavLinkService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="355" y="154"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.bocekm.skycontrol.mavlink.MavLinkStreamRates" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/mavlink/MavLinkStreamRates.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="529" y="276"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.bocekm.skycontrol.mavlink.MavLinkMission" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/mavlink/MavLinkMission.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="529" y="393"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.bocekm.skycontrol.mavlink.MavLinkService" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/mavlink/MavLinkService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="260" y="96"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.bocekm.skycontrol.mavlink.MavLinkClient" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/mavlink/MavLinkClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="447" y="96"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.bocekm.skycontrol.mavlink.MavLinkClient.ClientIncomingHandler" 
+    project="SkyControl" file="/SkyControl/src/com/bocekm/skycontrol/mavlink/MavLinkClient.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="587" y="154"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.bocekm.skycontrol.mavlink.MavLinkMsgHandler" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/mavlink/MavLinkMsgHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="629" y="96"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.bocekm.skycontrol.mavlink.MavLinkHeartbeat" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/mavlink/MavLinkHeartbeat.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="530" y="449"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.bocekm.skycontrol.connection.UsbConnection" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/connection/UsbConnection.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="356" y="217"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="14" language="java" name="com.bocekm.skycontrol.connection.ConnectionEvents.ConnectionListener" 
+    project="SkyControl" file="/SkyControl/src/com/bocekm/skycontrol/connection/ConnectionEvents.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="812" y="217"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="15" language="java" name="com.bocekm.skycontrol.connection.ConnectionEvents" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/connection/ConnectionEvents.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="811" y="154"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.bocekm.skycontrol.connection.Connection" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/connection/Connection.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="629" y="24"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.bocekm.skycontrol.connection.TelemetrySignal" project="SkyControl" 
+    file="/SkyControl/src/com/bocekm/skycontrol/connection/TelemetrySignal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="811" y="96"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="21">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="22" name="mTelemetrySignal"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="28">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="29" name="mDeviceConnectionThread"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="32">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="33" name="connectionListeners"/>      
+      <multiplicity id="34" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="35">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="36">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="37" name="mMavLinkMsgHandler"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="39">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="40">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="41" name="mConnectionEvents"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="43">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="44">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="45" name="mListener"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="48" name="mMavLinkClient"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+    accessors="true" visibility="false">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>

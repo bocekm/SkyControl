@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="AlwaysShowAction">
+        <ignore path="src/com/bocekm/skycontrol/MainActivity.java" />
+    </issue>
+    <issue id="ButtonStyle" severity="ignore" />
+    <issue id="ContentDescription" severity="ignore" />
+    <issue id="FieldGetter" severity="warning" />
+    <issue id="IconLocation">
+        <ignore path="res/drawable/location_button.png" />
+    </issue>
+    <issue id="InvalidPackage" severity="ignore" />
+    <issue id="MenuTitle">
+        <ignore path="res/menu/main_menu.xml" />
+    </issue>
+    <issue id="MissingTranslation" severity="ignore" />
+    <issue id="NestedWeights" severity="ignore" />
+    <issue id="UnusedIds" severity="warning" />
+</lint>

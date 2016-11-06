@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Michal Bocek -->
+<resources>
+
+    <string name="app_name">SkyControl</string>
+    <string name="preferences_string">Settings</string>
+    <string name="settings_activity_label">Settings</string>
+    <!-- Latitude, longitude format -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+    <string name="resolved">Location services error resolved</string>
+    <string name="no_resolution">Location services: unable to resolve connection error</string>
+    <string name="location_connected">Location Services connected</string>
+    <string name="location_disconnected">Location Services disconnected</string>
+    <string name="telemetry_connected_notification">Telemetry connected</string>
+    <string name="vehicle_connected_map_status">Vehicle connected. Waiting for position&#8230;</string>
+    <string name="vehicle_lost_map_status">Lost connection to vehicle. Waiting for connection&#8230;</string>
+    <string name="waiting_vehicle_map_status">Telemetry connected. Waiting for vehicle&#8230;</string>
+    <string name="waiting_telemetry_map_status">Connect the telemetry&#8230;</string>
+    <string name="vehicle_position_acquired">Vehicle position acquired</string>
+    <string name="location_not_acquired">Vehicle position not acquired yet</string>
+    <string name="clear_button">Clear</string>
+    <string name="autoscroll_on">Autoscroll on</string>
+    <string name="autoscroll_off">Autoscroll off</string>
+    <string name="gservices_missing">Google Play services are needed to provide map</string>
+    <string name="log_to_file_pref_title">Log to file</string>
+    <string name="swipe_enabled_pref_title">Tab views swiping</string>
+    <string name="swipe_enabled_pref_summ">Change tabs by swiping to the left/right</string>
+    <string name="file_directory_pref_title">Directory for storing user files</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="keep_screen_on_pref_title">Keep screen on</string>
+    <string name="keep_screen_on_pref_summ">Keep the device screen turned on and bright while the app is visible</string>
+    <string name="mavlink_error">MavLink error:</string>
+    <string name="default_waypoint_altitude_pref_title">Default waypoint altitude</string>
+    <string name="altitude_dialog_title">Waypoint altitude (max %d m)</string>
+    <string name="send_mission_menu_item">Send mission</string>
+    <string name="receive_mission_menu_item">Receive mission</string>
+    <string name="set_home_menu_item">Set home</string>
+    <string name="mission_received">Mission received from vehicle</string>
+    <string name="mission_written">Mission written to vehicle</string>
+    <string name="fake_groundspeed_pref_title">Simulated groundspeed</string>
+    <string name="fake_altitude_pref_title">Simulated altitude</string>
+    <string name="collision_distance_pref_title">Distance for collision check</string>
+    <string name="fake_vehicle_position_pref_title">Simulate vehicle position</string>
+    <string name="fake_vehicle_groundspeed_pref_title">Simulate vehicle groundspeed</string>
+    <string name="fake_vehicle_altitude_pref_title">Simulate vehicle altitude</string>
+    <string name="download_mission_on_vehicle_connect_pref_title">Download mission on vehicle connect</string>
+    <string name="enable_collision_avoidance_pref_title">Enable collision avoidance</string>
+    <string name="obstacle_terrain_collision_avoidance_system_pref_summ">Obstacle/terrain collision avoidance system</string>
+    <string name="fake_vehicle_parameters">Simulate flight data</string>
+    <string name="data_stream_rate_pref_title">Data stream rate</string>
+    <string name="default_alt_above_ground_pref_summ">Default waypoint altitude is defined AGL instead of AMSL</string>
+    <string name="default_alt_above_ground_pref_title">Default WP alt above ground level</string>
+    <string name="use_fake_pos_pref_summ">Simulated position is based on Android device position</string>
+
+</resources>

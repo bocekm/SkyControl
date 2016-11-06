@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Michal Bocek -->
+<resources>
+    <integer name="max_collision_distance">20</integer>
+    <integer name="max_waypoint_altitude">2000</integer>
+    <integer name="max_fake_groundspeed">50</integer>
+    <integer name="max_fake_altitude">2000</integer>
+    <integer name="max_stream_rate_interval">10</integer>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Michal Bocek -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skycontrol="http://schemas.android.com/apk/res/com.bocekm.skycontrol" >
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="com.bocekm.skycontrol.cas_enabled_pref"
+        android:summary="@string/obstacle_terrain_collision_avoidance_system_pref_summ"
+        android:title="@string/enable_collision_avoidance_pref_title" />
+    <com.bocekm.skycontrol.NumberPickerPreference
+        android:defaultValue="5"
+        android:dependency="com.bocekm.skycontrol.cas_enabled_pref"
+        android:key="com.bocekm.skycontrol.collision_distance_pref"
+        android:title="@string/collision_distance_pref_title"
+        skycontrol:maxValue="@integer/max_collision_distance"
+        skycontrol:minValue="1"
+        skycontrol:unit="s" />
+    <com.bocekm.skycontrol.NumberPickerPreference
+        android:defaultValue="1"
+        android:key="com.bocekm.skycontrol.data_stream_rate_pref"
+        android:title="@string/data_stream_rate_pref_title"
+        skycontrol:maxValue="@integer/max_stream_rate_interval"
+        skycontrol:minValue="1"
+        skycontrol:unit="Hz" />
+    <PreferenceScreen
+        android:key="fake_vehicle_params_key"
+        android:persistent="false"
+        android:title="@string/fake_vehicle_parameters" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="com.bocekm.skycontrol.use_fake_pos_pref"
+            android:summary="@string/use_fake_pos_pref_summ"
+            android:title="@string/fake_vehicle_position_pref_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="com.bocekm.skycontrol.use_fake_gndspeed_pref"
+            android:title="@string/fake_vehicle_groundspeed_pref_title" />
+        <com.bocekm.skycontrol.NumberPickerPreference
+            android:defaultValue="10"
+            android:dependency="com.bocekm.skycontrol.use_fake_gndspeed_pref"
+            android:key="com.bocekm.skycontrol.fake_groundspeed_pref"
+            android:title="@string/fake_groundspeed_pref_title"
+            skycontrol:maxValue="@integer/max_fake_groundspeed"
+            skycontrol:minValue="0"
+            skycontrol:unit="m/s" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="com.bocekm.skycontrol.use_fake_altitude_pref"
+            android:title="@string/fake_vehicle_altitude_pref_title" />
+        <com.bocekm.skycontrol.NumberPickerPreference
+            android:defaultValue="350"
+            android:dependency="com.bocekm.skycontrol.use_fake_altitude_pref"
+            android:key="com.bocekm.skycontrol.fake_altitude_pref"
+            android:title="@string/fake_altitude_pref_title"
+            skycontrol:maxValue="@integer/max_fake_altitude"
+            skycontrol:minValue="0"
+            skycontrol:unit="m" />
+    </PreferenceScreen>
+    <com.bocekm.skycontrol.NumberPickerPreference
+        android:defaultValue="100"
+        android:key="com.bocekm.skycontrol.default_waypoint_altitude_pref"
+        android:title="@string/default_waypoint_altitude_pref_title"
+        skycontrol:maxValue="@integer/max_waypoint_altitude"
+        skycontrol:minValue="0"
+        skycontrol:unit="m" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:dependency="com.bocekm.skycontrol.cas_enabled_pref"
+        android:key="com.bocekm.skycontrol.default_alt_above_ground_pref"
+        android:summary="@string/default_alt_above_ground_pref_summ"
+        android:title="@string/default_alt_above_ground_pref_title" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="com.bocekm.skycontrol.dwnld_mission_on_conn_pref"
+        android:title="@string/download_mission_on_vehicle_connect_pref_title" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="com.bocekm.skycontrol.log_to_file_pref"
+        android:title="@string/log_to_file_pref_title" />
+    <EditTextPreference
+        android:key="com.bocekm.skycontrol.file_directory_pref"
+        android:title="@string/file_directory_pref_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="com.bocekm.skycontrol.swipe_enabled_pref"
+        android:summary="@string/swipe_enabled_pref_summ"
+        android:title="@string/swipe_enabled_pref_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="com.bocekm.skycontrol.screen_on_pref"
+        android:summary="@string/keep_screen_on_pref_summ"
+        android:title="@string/keep_screen_on_pref_title" />
+</PreferenceScreen>

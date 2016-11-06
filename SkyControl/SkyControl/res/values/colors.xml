@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="collistion_waypoint_selected">#CC33FF</color>
+    <color name="skycontrol_red">#f12929</color>
+    <color name="clickable_text_background">#e4e4e4</color>
+</resources>
